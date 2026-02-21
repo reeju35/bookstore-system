@@ -7,7 +7,6 @@ import { toast } from "react-toastify";
 const CheckoutPage = () => {
   const navigate = useNavigate();
   const [cartItems, setCartItems] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const [shipping, setShipping] = useState({
     address: "",
